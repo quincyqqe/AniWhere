@@ -1,8 +1,5 @@
-# React + Vite
+# AniWhere
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![AniWhere Preview](https://cdn.discordapp.com/attachments/775379387163082764/1225489136862105701/image.png?ex=662150b2&is=660edbb2&hm=de4ba82e666e8c50f01bda1fc9c41557941553d325e9b0ed5ef02e15c1564eac&)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
