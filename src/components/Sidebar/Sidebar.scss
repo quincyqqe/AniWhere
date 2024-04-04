@@ -1,0 +1,20 @@
+.sidebar {
+	position: fixed;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	transition: transform 0.3s ease;
+}
+
+.sidebar.open {
+	transform: translateY(-50%) translateX(0); 
+}
+
+.sidebar img {
+	width: 25px;
+	transform: rotate(-90deg);
+}
+
+.sidebar:hover {
+	transform: translateY(-50%) translateX(10px); 
+}

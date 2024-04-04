@@ -1,0 +1,41 @@
+.header {
+	display: flex;
+	position: fixed;
+	z-index: 1000;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 0;
+	padding-left: 40px;
+	padding-right: 100px;
+	width: 100%;
+	transition: background-color 0.5s;
+}
+
+.header__logo img {
+	height: 40px;
+	width: 130px;
+}
+
+.header__right-section {
+	display: flex;
+	align-items: center;
+}
+
+.header__search img,
+.header__avatar img {
+	height: 25px;
+	width: 25px;
+}
+
+.header__search {
+	margin-left: auto;
+	margin-right: 20px;
+}
+.header__avatar {
+	margin-left: auto;
+	padding-right: 85px;
+}
+
+.scrolled {
+	background-color: rgba(0, 0, 0, 0.7);
+}
