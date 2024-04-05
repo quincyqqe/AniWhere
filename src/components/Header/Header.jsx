@@ -24,7 +24,7 @@ const Header = () => {
 	return (
 		<div className={`header ${isScrolled ? 'scrolled' : ''}`}>
 			<div className='header__logo'>
-				<img src='/public/images/Color logo - no background.png' alt='' />
+				<img src='/logo.png' alt='' />
 			</div>
 			<div className='header__right-section'>
 				<div className='header__search'>
