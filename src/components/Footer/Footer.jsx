@@ -11,7 +11,7 @@ const Footer = () => {
 						</a>
 						<div className='footer-contact'>
 							<a href='#'>
-								<img src='/public/images/social/telegram.png' alt='' />
+								<img src='/telegram.png' alt='' />
 							</a>
 						</div>
 					</div>

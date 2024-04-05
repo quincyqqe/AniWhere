@@ -57,6 +57,7 @@
 			overflow: hidden;
 			opacity: 0;
 			transition: transform 0.3s ease, height 0.3s ease, opacity 0.3s ease;
+			
 
 			& p {
 				font-size: 12px;
@@ -67,6 +68,7 @@
 			background-color: rgba(18, 17, 17, 0.7);
 			height: 15%;
 			opacity: 1;
+
 		}
 	}
 }

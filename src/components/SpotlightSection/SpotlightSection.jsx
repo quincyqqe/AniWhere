@@ -17,13 +17,13 @@ const SpotlightSection = () => {
 		<div className='spotlight-section'>
 			<img
 				className='spotlight-background'
-				src='/public/images/spotlight/wallpapersden.com_sung-jin-woo-digital-solo-leveling_1927x1080.jpg'
+				src='/sololeveling-cover.jpg'
 				alt='banner'
 			/>
 			<div className='container'>
 				<>
 					<img
-						src='/public/images/spotlight/sololeveling.png'
+						src='/sololeveling.png'
 						alt='Solo Leveling'
 						className='spotlight-image'
 					/>

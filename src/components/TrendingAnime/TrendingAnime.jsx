@@ -69,11 +69,11 @@ const TrendingAnime = () => {
 			</div>
 			{scrollLeft > 0 && ( // Проверяем, можно ли прокрутить влево, если да, то отображаем кнопку "Previous"
 				<button className='button-previous' onClick={() => scroll(-600)}>
-					<img src='/public/images/pngwing.com.png' alt='' />
+					<img src='/arrow.png' alt='' />
 				</button>
 			)}
 			<button className='button-next' onClick={() => scroll(600)}>
-				<img src='/public/images/pngwing.com.png' alt='' />
+				<img src='/arrow.png' alt='' />
 			</button>
 		</div>
 	)

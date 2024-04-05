@@ -12,7 +12,7 @@ const Sidebar = () => {
 	return (
 		<div className={`sidebar ${isSidebarOpen ? 'open' : ''}`}>
 			<div className='sidebar__toggle' onClick={toggleSidebar}>
-				<img src='/images/pngwing.com.png' alt='arrow' />
+				<img src='/arrow.png' alt='arrow' />
 			</div>
 			{isSidebarOpen && (
 				<div className='sidebar__menu'>
