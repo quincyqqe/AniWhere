@@ -1,6 +1,18 @@
+import React, { useState } from 'react'
+import Modal from './Modal/Modal' 
 import './SpotlightSection.scss'
 
 const SpotlightSection = () => {
+	const [isModalOpen, setIsModalOpen] = useState(false)
+
+	const openModal = () => {
+		setIsModalOpen(true)
+	}
+
+	const closeModal = () => {
+		setIsModalOpen(false)
+	}
+
 	return (
 		<div className='spotlight-section'>
 			<img
@@ -25,10 +37,14 @@ const SpotlightSection = () => {
 						not the case for the world’s weakest hunter Sung Jinwoo. After being
 						brutally slaughtered by monsters in a…
 					</p>
-					<button className='spotlight-button'>Watch Episode 1</button>
+					<button className='spotlight-button' onClick={openModal}>
+						Watch Episode 1
+					</button>
 					<button className='spotlight-button__detail'>More Information</button>
 				</>
 			</div>
+			<Modal isOpen={isModalOpen} onClose={closeModal} />{' '}
+			{/* Рендерим Modal с помощью условного оператора */}
 		</div>
 	)
 }

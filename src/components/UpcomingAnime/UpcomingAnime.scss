@@ -1,11 +1,79 @@
-.upcoming-anime {
-    padding-left: 40px;
+.upcoming-anime-container {
+	padding: 0 40px;
 
-    .upcoming-anime__header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: row;
+	.upcoming-anime-header {
+		display: flex;
+		justify-content: space-between;
+	}
 
-    }
+	.upcoming-anime-list {
+		display: flex;
+		flex-wrap: wrap;
+        justify-content: center;
+
+		gap: 20px;
+	}
+
+	.upcoming-anime-item {
+		position: relative;
+		width: 200px;
+		
+		
+
+		text-align: center;
+
+		img {
+			position: relative; 
+			width: 100%;
+			height: 300px;
+			transition: filter 0.3s ease; 
+		}
+
+		img:hover {
+			filter: blur(5px); 
+		}
+
+		img::after {
+			content: ''; 
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			width: 50px;
+			height: 50px;
+			background-image: url('/public/images/pngwing.com.png');
+			background-size: cover;
+			opacity: 0; 
+			transition: opacity 0.3s ease; 
+		}
+
+		&:hover img::after {
+			opacity: 1; 
+		}
+
+		.upcoming-anime-detail {
+			bottom: 0;
+			left: 0;
+			right: 0;
+			color: #fff;
+			padding-bottom: 0;
+			border-bottom-left-radius: 5px;
+			border-bottom-right-radius: 5px;
+			font-size: 12px;
+			text-align: left;
+		}
+
+		.upcoming-anime-detail h3 {
+			margin: 0;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+
+		.upcoming-anime-detail p {
+			color: #aaa;
+			display: inline-block;
+			margin: 5px 5px;
+		}
+	}
 }

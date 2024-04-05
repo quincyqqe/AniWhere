@@ -28,10 +28,10 @@ const Header = () => {
 			</div>
 			<div className='header__right-section'>
 				<div className='header__search'>
-					<img src='/public/images/search.svg' alt='search' />
+					<img src='/public/images/search (2).png' alt='search' />
 				</div>
 				<div className='header__avatar'>
-					<img src='/public/images/avatar.png' alt='avatar' />
+					<img src='/public/images/spotlight/user.png' alt='avatar' />
 				</div>
 			</div>
 		</div>
