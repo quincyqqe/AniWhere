@@ -4,8 +4,6 @@
 
 
 
-# AniWhere
+# AniWhere Preview
 
-![AniWhere Preview](https://cdn.discordapp.com/attachments/775379387163082764/1225489136862105701/image.png?ex=662150b2&is=660edbb2&hm=de4ba82e666e8c50f01bda1fc9c41557941553d325e9b0ed5ef02e15c1564eac&)
-
-
+![AniWhere Preview](https://github.com/quincyqqe/AniWhere/assets/111203167/bc20d20d-a50b-4366-bae5-3447734f1d8c)
